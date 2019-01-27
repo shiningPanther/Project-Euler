@@ -17,8 +17,6 @@ def createFibonacci(x, y, limit):
 	if newNumber < limit:
 		fibonacciNumbers.append(newNumber)
 		createFibonacci(fibonacciNumbers[-1], fibonacciNumbers[-2], limit)
-	else:
-		return sumFibo
 
 
 # Define the first numbers for the recursive function
