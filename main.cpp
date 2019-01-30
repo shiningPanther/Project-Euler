@@ -1,5 +1,5 @@
-#include <iostream>
 #include "Problem6.h"
+#include <iostream>
 
 int main() {
     // Note on measurement of elapsed time:
