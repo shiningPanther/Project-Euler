@@ -1,5 +1,6 @@
-#include "Problem6.h"
+#include "Problem67.hpp"
 #include <iostream>
+
 
 int main() {
     // Note on measurement of elapsed time:
@@ -9,7 +10,7 @@ int main() {
     start = std::clock();
     
     // Solution to the problem
-    int solution = Problem6();
+    long solution = Problem67();
     
     duration = ( std::clock() - start ) / (double) CLOCKS_PER_SEC;
     std::cout << "Program finished in: " << duration << " s \n";
