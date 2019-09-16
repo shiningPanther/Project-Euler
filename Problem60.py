@@ -8,7 +8,6 @@ Find the lowest sum for a set of five primes for which any two primes concatenat
 '''
 
 def getPrimeArray(N):
-	
 	primeArray = [2,3] # 2 and 3 are primes
 	maxNumber = int(N**0.5) + 1
 	for number in range(5,maxNumber,2):
@@ -24,8 +23,6 @@ def isPrime(n,primeArray):
 		if prime*prime > n:
 			return True
 	return True
-
-
 
 def conc_isPrime(primeArray,prime1,prime2,prime3=None,prime4=None,prime5=None):
 
@@ -75,7 +72,6 @@ def main():
 										answerFound = True
 										print(prime1,prime2,prime3,prime4,prime5)
 										print(prime1+prime2+prime3+prime4+prime5)
-										break
 
 
 if __name__ == '__main__':
